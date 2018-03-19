@@ -2,7 +2,7 @@ import UIKit
 import SceneKit
 import ARKit
 
-public class exNode: TouchableNode {
+public class exTouchableNode: TouchableNode {
     public var id: Int!
     
     override init(){

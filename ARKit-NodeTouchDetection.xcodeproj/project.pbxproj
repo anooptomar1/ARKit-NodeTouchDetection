@@ -12,7 +12,7 @@
 		D63574C220600A3C003B0E04 /* TouchableNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63574BD20600A3B003B0E04 /* TouchableNode.swift */; };
 		D63574C320600A3C003B0E04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63574BE20600A3C003B0E04 /* AppDelegate.swift */; };
 		D63574C420600A3C003B0E04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63574BF20600A3C003B0E04 /* ViewController.swift */; };
-		D63574C520600A3C003B0E04 /* exSCNNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63574C020600A3C003B0E04 /* exSCNNode.swift */; };
+		D63574C520600A3C003B0E04 /* exTouchableNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63574C020600A3C003B0E04 /* exTouchableNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		D63574BD20600A3B003B0E04 /* TouchableNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchableNode.swift; sourceTree = "<group>"; };
 		D63574BE20600A3C003B0E04 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D63574BF20600A3C003B0E04 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D63574C020600A3C003B0E04 /* exSCNNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = exSCNNode.swift; sourceTree = "<group>"; };
+		D63574C020600A3C003B0E04 /* exTouchableNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = exTouchableNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				D63574BB20600A3B003B0E04 /* ARTouchDetectLib */,
-				D63574C020600A3C003B0E04 /* exSCNNode.swift */,
+				D63574C020600A3C003B0E04 /* exTouchableNode.swift */,
 				D63574BF20600A3C003B0E04 /* ViewController.swift */,
 				D63574BE20600A3C003B0E04 /* AppDelegate.swift */,
 				D63574AF206009C2003B0E04 /* Assets.xcassets */,
@@ -148,7 +148,7 @@
 			files = (
 				D63574C320600A3C003B0E04 /* AppDelegate.swift in Sources */,
 				D63574C120600A3C003B0E04 /* TapARView.swift in Sources */,
-				D63574C520600A3C003B0E04 /* exSCNNode.swift in Sources */,
+				D63574C520600A3C003B0E04 /* exTouchableNode.swift in Sources */,
 				D63574C420600A3C003B0E04 /* ViewController.swift in Sources */,
 				D63574C220600A3C003B0E04 /* TouchableNode.swift in Sources */,
 			);
