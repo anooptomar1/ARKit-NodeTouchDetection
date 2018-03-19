@@ -10,7 +10,7 @@ AR空間に設置するオブジェクトのタップ時の処理を、Touchable
 TouchARView を ViewVontroller の view に追加するだけでオブジェクトへのタップが検知できます. <br>
 詳細は `ARKit-NodeTouchDetection/ARKit-NodeTouchDetection/ViewController.swift` を見てください.
 
-```
+```swift
 class ViewController: UIViewController {
   var arView: TouchARView!
 
