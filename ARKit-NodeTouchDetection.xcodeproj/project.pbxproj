@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D63574B0206009C2003B0E04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D63574AF206009C2003B0E04 /* Assets.xcassets */; };
+		D63574C120600A3C003B0E04 /* TapARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63574BC20600A3B003B0E04 /* TapARView.swift */; };
+		D63574C220600A3C003B0E04 /* TouchableNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63574BD20600A3B003B0E04 /* TouchableNode.swift */; };
+		D63574C320600A3C003B0E04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63574BE20600A3C003B0E04 /* AppDelegate.swift */; };
+		D63574C420600A3C003B0E04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63574BF20600A3C003B0E04 /* ViewController.swift */; };
+		D63574C520600A3C003B0E04 /* exSCNNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63574C020600A3C003B0E04 /* exSCNNode.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D63574A3206009C2003B0E04 /* ARKit-NodeTouchDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARKit-NodeTouchDetection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63574AF206009C2003B0E04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D63574B4206009C2003B0E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D63574BC20600A3B003B0E04 /* TapARView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapARView.swift; sourceTree = "<group>"; };
+		D63574BD20600A3B003B0E04 /* TouchableNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchableNode.swift; sourceTree = "<group>"; };
+		D63574BE20600A3C003B0E04 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D63574BF20600A3C003B0E04 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D63574C020600A3C003B0E04 /* exSCNNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = exSCNNode.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D63574A0206009C2003B0E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D635749A206009C2003B0E04 = {
+			isa = PBXGroup;
+			children = (
+				D63574A5206009C2003B0E04 /* ARKit-NodeTouchDetection */,
+				D63574A4206009C2003B0E04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D63574A4206009C2003B0E04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D63574A3206009C2003B0E04 /* ARKit-NodeTouchDetection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D63574A5206009C2003B0E04 /* ARKit-NodeTouchDetection */ = {
+			isa = PBXGroup;
+			children = (
+				D63574BB20600A3B003B0E04 /* ARTouchDetectLib */,
+				D63574C020600A3C003B0E04 /* exSCNNode.swift */,
+				D63574BF20600A3C003B0E04 /* ViewController.swift */,
+				D63574BE20600A3C003B0E04 /* AppDelegate.swift */,
+				D63574AF206009C2003B0E04 /* Assets.xcassets */,
+				D63574B4206009C2003B0E04 /* Info.plist */,
+			);
+			path = "ARKit-NodeTouchDetection";
+			sourceTree = "<group>";
+		};
+		D63574BB20600A3B003B0E04 /* ARTouchDetectLib */ = {
+			isa = PBXGroup;
+			children = (
+				D63574BC20600A3B003B0E04 /* TapARView.swift */,
+				D63574BD20600A3B003B0E04 /* TouchableNode.swift */,
+			);
+			path = ARTouchDetectLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D63574A2206009C2003B0E04 /* ARKit-NodeTouchDetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63574B7206009C2003B0E04 /* Build configuration list for PBXNativeTarget "ARKit-NodeTouchDetection" */;
+			buildPhases = (
+				D635749F206009C2003B0E04 /* Sources */,
+				D63574A0206009C2003B0E04 /* Frameworks */,
+				D63574A1206009C2003B0E04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ARKit-NodeTouchDetection";
+			productName = "ARKit-NodeTouchDetection";
+			productReference = D63574A3206009C2003B0E04 /* ARKit-NodeTouchDetection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D635749B206009C2003B0E04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = prog470dev;
+				TargetAttributes = {
+					D63574A2206009C2003B0E04 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D635749E206009C2003B0E04 /* Build configuration list for PBXProject "ARKit-NodeTouchDetection" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D635749A206009C2003B0E04;
+			productRefGroup = D63574A4206009C2003B0E04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D63574A2206009C2003B0E04 /* ARKit-NodeTouchDetection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D63574A1206009C2003B0E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63574B0206009C2003B0E04 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D635749F206009C2003B0E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63574C320600A3C003B0E04 /* AppDelegate.swift in Sources */,
+				D63574C120600A3C003B0E04 /* TapARView.swift in Sources */,
+				D63574C520600A3C003B0E04 /* exSCNNode.swift in Sources */,
+				D63574C420600A3C003B0E04 /* ViewController.swift in Sources */,
+				D63574C220600A3C003B0E04 /* TouchableNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D63574B5206009C2003B0E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D63574B6206009C2003B0E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D63574B8206009C2003B0E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4LJ36D53M;
+				INFOPLIST_FILE = "ARKit-NodeTouchDetection/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fcimsb55yn.com.test.ARKit-NodeTouchDetection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D63574B9206009C2003B0E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4LJ36D53M;
+				INFOPLIST_FILE = "ARKit-NodeTouchDetection/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fcimsb55yn.com.test.ARKit-NodeTouchDetection";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D635749E206009C2003B0E04 /* Build configuration list for PBXProject "ARKit-NodeTouchDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63574B5206009C2003B0E04 /* Debug */,
+				D63574B6206009C2003B0E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D63574B7206009C2003B0E04 /* Build configuration list for PBXNativeTarget "ARKit-NodeTouchDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63574B8206009C2003B0E04 /* Debug */,
+				D63574B9206009C2003B0E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D635749B206009C2003B0E04 /* Project object */;
+}
