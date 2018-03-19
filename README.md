@@ -46,7 +46,7 @@ public class exTouchableNode: TouchableNode {
 
 ```
 
-## limitation
+## Limitation
 画面上のタップ位置にオブジェクトが複数あった場合, 検知できるのはどちらか一方のみです.
 
 ## Requirements
