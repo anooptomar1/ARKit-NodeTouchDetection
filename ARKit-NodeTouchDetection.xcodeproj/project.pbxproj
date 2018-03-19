@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D63574B0206009C2003B0E04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D63574AF206009C2003B0E04 /* Assets.xcassets */; };
-		D63574C120600A3C003B0E04 /* TapARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63574BC20600A3B003B0E04 /* TapARView.swift */; };
+		D63574C120600A3C003B0E04 /* TouchARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63574BC20600A3B003B0E04 /* TouchARView.swift */; };
 		D63574C220600A3C003B0E04 /* TouchableNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63574BD20600A3B003B0E04 /* TouchableNode.swift */; };
 		D63574C320600A3C003B0E04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63574BE20600A3C003B0E04 /* AppDelegate.swift */; };
 		D63574C420600A3C003B0E04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63574BF20600A3C003B0E04 /* ViewController.swift */; };
@@ -19,7 +19,7 @@
 		D63574A3206009C2003B0E04 /* ARKit-NodeTouchDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARKit-NodeTouchDetection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D63574AF206009C2003B0E04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D63574B4206009C2003B0E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D63574BC20600A3B003B0E04 /* TapARView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapARView.swift; sourceTree = "<group>"; };
+		D63574BC20600A3B003B0E04 /* TouchARView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchARView.swift; sourceTree = "<group>"; };
 		D63574BD20600A3B003B0E04 /* TouchableNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchableNode.swift; sourceTree = "<group>"; };
 		D63574BE20600A3C003B0E04 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D63574BF20600A3C003B0E04 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 		D63574BB20600A3B003B0E04 /* ARTouchDetectLib */ = {
 			isa = PBXGroup;
 			children = (
-				D63574BC20600A3B003B0E04 /* TapARView.swift */,
+				D63574BC20600A3B003B0E04 /* TouchARView.swift */,
 				D63574BD20600A3B003B0E04 /* TouchableNode.swift */,
 			);
 			path = ARTouchDetectLib;
@@ -147,7 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D63574C320600A3C003B0E04 /* AppDelegate.swift in Sources */,
-				D63574C120600A3C003B0E04 /* TapARView.swift in Sources */,
+				D63574C120600A3C003B0E04 /* TouchARView.swift in Sources */,
 				D63574C520600A3C003B0E04 /* exTouchableNode.swift in Sources */,
 				D63574C420600A3C003B0E04 /* ViewController.swift in Sources */,
 				D63574C220600A3C003B0E04 /* TouchableNode.swift in Sources */,
