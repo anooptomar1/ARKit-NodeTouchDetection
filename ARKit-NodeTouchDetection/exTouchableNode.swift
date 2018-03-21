@@ -22,7 +22,7 @@ public class exTouchableNode: TouchableNode {
         self.id = id
     }
     
-    //タップに対する処理
+    //Processing on taps
     override func TouchedReaction() {
         print("ID: " + String(id))
     }

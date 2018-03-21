@@ -2,13 +2,13 @@
 Swift library for tap detection of objects in ARKit
 
 # Usage
-### 手動による設定
- `ARKit-NodeTouchDetection/ARKit-NodeTouchDetection/ARTouchDetectLib/` をプロジェクトに追加してください.
+### Manual setting
+ Please add `ARKit-NodeTouchDetection / ARKit-NodeTouchDetection / ARTouchDetectLib /` to the project.
 
-### サンプル
-AR空間に設置するオブジェクトのタップ時の処理を, TouchableNode を継承して記述してください. <br>
-TouchARView を ViewVontroller の view に追加するだけでオブジェクトへのタップが検知できます. <br>
-詳細は `ARKit-NodeTouchDetection/ARKit-NodeTouchDetection/ViewController.swift` を見てください.
+### Part of sample code
+Describe the processing when tapping an object installed in AR space inheriting from TouchableNode. <br>
+By adding TouchARView to ViewVontroller's view, you can detect the tap to the object. <br>
+For details, see `ARKit-NodeTouchDetection / ARKit-NodeTouchDetection / ViewController.swift`.
 
 ```swift
 class ViewController: UIViewController {
@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     let sampleNode = exTouchableNode(geometry: SCNBox(width: 0.1, height: 0.1, length: 0.1, chamferRadius: 0))
     sampleNode.position = SCNVector3(0, 0.3, -0.2)
 
-    //AR空間にノードを設置
+    //Place the node in AR space
     arView.addNode(node: sampleNode)
   }
 
@@ -40,14 +40,14 @@ class ViewController: UIViewController {
 
 public class exTouchableNode: TouchableNode {
   override func TouchedReaction() {
-      //タップに対する処理を記述
+      //Describe processing for taps
   }
 }
 
 ```
 
 ## Limitation
-画面上のタップ位置にオブジェクトが複数あった場合, 検知できるのはどちらか一方のみです.
+If there are multiple objects at the tap position on the screen, only one of them can be detected.
 
 ## Requirements
 - iOS 11.0

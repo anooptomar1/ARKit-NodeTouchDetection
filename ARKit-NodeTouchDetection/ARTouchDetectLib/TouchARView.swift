@@ -23,24 +23,24 @@ class TouchARView: ARSCNView, ARSCNViewDelegate{
         topViewController()!.view.addGestureRecognizer(nodeTapGesture)
     }
     
-    //このviewを呼び出すVCのviewWillAppear(_ animated: Bool) 中で呼ぶ
+    //Call this in viewWillAppear (_ animated: Bool) of the VC that call this view.
     public func run() {
         let configuration = ARWorldTrackingConfiguration()
         session.run(configuration)
         setTouchGesture()
     }
     
-    //このviewを呼び出すVCのviewWillDisappear(_ animated: Bool) 中で呼ぶ
+    //Call this in viewWillDisappear(_ animated: Bool) of the VC that call this view.
     public func pause() {
         session.pause()
     }
     
-    //ノードの配置
+    //Placing nodes
     open func addNode(node: SCNNode){
         scene.rootNode.addChildNode(node)
     }
     
-    //ノードに対するタッチを検出処理
+    //Touch detection for node
     @objc func nodeTap(_ gestureRecognizer: UITapGestureRecognizer) {
         
         let point = gestureRecognizer.location(in: self)
@@ -50,7 +50,7 @@ class TouchARView: ARSCNView, ARSCNViewDelegate{
             let result = hitResults[0]
             
             if let node = (result.node as? TouchableNode) {
-                //TouchableNodeのサブクラスで定義されたタッチに対する処理を実行
+                //Execute processing for touch defined in subclass of TouchableNode
                 node.TouchedReaction()
             }
         }

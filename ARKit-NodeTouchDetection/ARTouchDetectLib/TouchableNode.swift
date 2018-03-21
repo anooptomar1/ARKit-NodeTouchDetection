@@ -13,6 +13,6 @@ public class TouchableNode: SCNNode {
     }
     
     func TouchedReaction(){
-        //ノードがタップされたときの処理を記述（オーバーライド）
+        //Describe processing when a node is tapped (override)
     }
 }
