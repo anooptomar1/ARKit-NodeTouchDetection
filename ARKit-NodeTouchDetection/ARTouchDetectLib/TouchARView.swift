@@ -4,9 +4,13 @@ import ARKit
 
 class TouchARView: ARSCNView, ARSCNViewDelegate{
     
+    // Flag as to whether to react to touch (The default setting is true)
+    open var touchable: Bool!
+    
     public init(){
         super.init(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height), options: nil)
         finishInitialization()
+        touchable = true
     }
 
     public required init?(coder aDecoder: NSCoder) {
@@ -42,6 +46,8 @@ class TouchARView: ARSCNView, ARSCNViewDelegate{
     
     //Touch detection for node
     @objc func nodeTap(_ gestureRecognizer: UITapGestureRecognizer) {
+        
+        guard touchable else { return }
         
         let point = gestureRecognizer.location(in: self)
         let hitResults = self.hitTest(point, options: [:])

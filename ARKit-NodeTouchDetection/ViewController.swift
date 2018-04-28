@@ -12,7 +12,7 @@ class ViewController: UIViewController {
         arView = TouchARView()
         view.addSubview(arView)
         
-        //Arrangement of objects reacting to taps
+        //Set up nodes to react to touch.
         let cubeNode = exTouchableNode(geometry: SCNBox(width: 0.1, height: 0.1, length: 0.1, chamferRadius: 0))
         cubeNode.position = SCNVector3(0, 0.3, -0.2)
         cubeNode.setId(id: 10)

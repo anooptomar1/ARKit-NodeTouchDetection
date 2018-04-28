@@ -3,7 +3,7 @@ Swift library for tap detection of objects in ARKit
 
 # Usage
 ### Manual setting
- Please add `ARKit-NodeTouchDetection / ARKit-NodeTouchDetection / ARTouchDetectLib /` to the project.
+ Please add `ARKit-NodeTouchDetection / ARKit-NodeTouchDetection / ARTouchDetectLib` to the project.
 
 ### Part of sample code
 Describe the processing when tapping an object installed in AR space inheriting from TouchableNode. <br>
@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     arView = TouchARView()
     view.addSubview(arView)
 
+    //sample object
     let sampleNode = exTouchableNode(geometry: SCNBox(width: 0.1, height: 0.1, length: 0.1, chamferRadius: 0))
     sampleNode.position = SCNVector3(0, 0.3, -0.2)
 
